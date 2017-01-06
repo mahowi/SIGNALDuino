@@ -1,13 +1,11 @@
 # SIGNALDuino uC v3.3-0 (development version)
+# (edited, so it can be compiled with Arduino IDE)
 
 System to receive digital signals and provide them to other systems pro demodulatiob. Currently tested with 433 MHZ, but not limited to that frequency or media.
 
 ### Getting started
 
-
-Just clone the repo and open the project file with code:blocks. (currently this works only for windows)
-Compile it and have fun.
-If you are using the Arduino IDE, you have to copy all the libs into your sketch folder.
+Just copy the folder into your Arduino sketchbook and compile with Arduino IDE.
 
 ### Using SIGNALDuino in FHEM
 
