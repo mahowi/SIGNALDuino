@@ -33,13 +33,13 @@
 #define _SIGNALDECODER_h
 
 #if defined(ARDUINO) && ARDUINO >= 100
-	#include "arduino.h"
+	#include "Arduino.h"
 #else
 	#include "WProgram.h"
 #endif
-#include <output.h>
+#include "output.h"
 
-#include <bitstore.h>
+#include "bitstore.h"
 
 #define maxNumPattern 8
 #define maxMsgSize 254

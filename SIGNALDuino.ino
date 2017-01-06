@@ -41,13 +41,13 @@
 #define FIFO_LENGTH			   50
 //#define DEBUG				   1
 
-#include <output.h>
+#include "output.h"
 
-#include <TimerOne.h>  // Timer for LED Blinking
-#include <bitstore.h>  // Die wird aus irgend einem Grund zum Compilieren benoetigt.
-#include <SimpleFIFO.h>
+#include "TimerOne.h"  // Timer for LED Blinking
+#include "bitstore.h"  // Die wird aus irgend einem Grund zum Compilieren benoetigt.
+#include "SimpleFIFO.h"
 SimpleFIFO<int,FIFO_LENGTH> FiFo; //store FIFO_LENGTH # ints
-#include <signalDecoder.h>
+#include "signalDecoder.h"
 SignalDetectorClass musterDec;
 
 
